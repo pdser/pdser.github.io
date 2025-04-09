@@ -2,7 +2,6 @@
 title: Contact
 icon: fas fa-envelope
 order: 4
-permalink: /secre3/
 hidden: true
 ---
 
