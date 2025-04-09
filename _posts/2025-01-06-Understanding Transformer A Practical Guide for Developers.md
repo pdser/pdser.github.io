@@ -16,20 +16,17 @@ In this post, I’ll share how I learned to understand Transformers from a devel
 
 ## 📑 Table of Contents
 
-## 📑 Table of Contents
-
-1. [Why Developers Should Care](#why-developers-should-care)
-2. [What Is the Core Idea?](#what-is-the-core-idea)
-3. [How the Transformer Works (Simplified)](#how-the-transformer-works-simplified)
-4. [What’s New in “Attention is All You Need”?](#whats-new-in-attention-is-all-you-need)
-5. [How Developers Can Apply Transformers](#how-developers-can-apply-transformers)
-6. [Final Thoughts](#final-thoughts)
-7. [Further Reading](#further-reading)
-
+1. [Why Developers Should Care](#why-developers-should-care)  
+2. [What Is the Core Idea?](#what-is-the-core-idea)  
+3. [How the Transformer Works (Simplified)](#how-the-transformer-works-simplified)  
+4. [What’s New in “Attention is All You Need”?](#whats-new-in-attention-is-all-you-need)  
+5. [How Developers Can Apply Transformers](#how-developers-can-apply-transformers)  
+6. [Final Thoughts](#final-thoughts)  
+7. [Further Reading](#further-reading)  
 
 ---
 
-## 🚀 Why Developers Should Care
+## 🚀 Why Developers Should Care {#why-developers-should-care}
 
 Transformers are everywhere:
 
@@ -45,7 +42,7 @@ Even if you’re not building models from scratch, understanding how they work u
 
 ---
 
-## 💡 What Is the Core Idea?
+## 💡 What Is the Core Idea? {#what-is-the-core-idea}
 
 Traditional sequence models like RNNs and LSTMs process data *step-by-step*. That limits parallelism and makes it hard to capture long-range dependencies.
 
@@ -53,11 +50,9 @@ Traditional sequence models like RNNs and LSTMs process data *step-by-step*. Tha
 
 > Rather than processing sequentially, the Transformer looks at the *entire input at once*, and figures out which parts are relevant through a mechanism called **self-attention**.
 
-This lets it model relationships between words regardless of how far apart they are in the sentence.
-
 ---
 
-## 🔍 How the Transformer Works (Simplified)
+## 🔍 How the Transformer Works (Simplified) {#how-the-transformer-works-simplified}
 
 Let’s break the architecture into digestible pieces:
 
@@ -65,13 +60,11 @@ Let’s break the architecture into digestible pieces:
 
 - Each word is turned into a vector (word embedding)
 - Positional encodings are added to preserve word order
-- Why? Because attention doesn’t understand sequence position by itself
 
 ### 2. Encoder-Decoder Structure
 
 - **Encoder**: Understands the input (e.g., English sentence)
 - **Decoder**: Generates output (e.g., French translation)
-- In many use cases (like BERT), only the encoder is used
 
 ### 3. Self-Attention
 
@@ -87,7 +80,6 @@ Example:
 
 - Multiple attention heads work in parallel
 - Each head captures different types of relationships
-- Their results are concatenated and transformed
 
 ### 5. Feed-Forward Network (FFN)
 
@@ -101,7 +93,7 @@ Example:
 
 ---
 
-## 🆕 What’s New in “Attention is All You Need”?
+## 🆕 What’s New in “Attention is All You Need”? {#whats-new-in-attention-is-all-you-need}
 
 The paper's innovation is in its **radical simplicity**:
 
@@ -113,7 +105,7 @@ That’s why GPT-3, with its 175B parameters, is still a Transformer at heart.
 
 ---
 
-## 🛠 How Developers Can Apply Transformers
+## 🛠 How Developers Can Apply Transformers {#how-developers-can-apply-transformers}
 
 You don't need to reimplement Transformers from scratch. Use existing tools and models to solve real-world problems.
 
@@ -126,4 +118,3 @@ summarizer = pipeline("summarization")
 text = "The transformer model was introduced in the paper Attention is All You Need..."
 summary = summarizer(text)
 print(summary)
-
