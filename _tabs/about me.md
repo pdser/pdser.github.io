@@ -13,3 +13,13 @@ Outside of work, I enjoy hiking, photography, and exploring new technologies.
 - 🔧 Languages: Python, SQL, JavaScript  
 - ☁️ Tools: Git, Docker, Linux, VS Code  
 - 📚 Focus: AI, NLP, Prompt Engineering, NL2SQL
+
+---
+
+📬 **Let's get in touch!**
+
+- 📧 Email: kunchen@example.com  
+- 💼 LinkedIn: [linkedin.com/in/kunchen](https://linkedin.com/in/kunchen)  
+- 💻 GitHub: [github.com/kunchen](https://github.com/kunchen)
+
+If you're a potential collaborator, recruiter, or fellow researcher, feel free to reach out. I'm currently open to internships and part-time roles in Wellington and nearby areas.
