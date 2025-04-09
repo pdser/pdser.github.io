@@ -4,7 +4,7 @@ icon: fas fa-file-alt
 order: 3
 ---
 
-📄 **Download my resume**: [Click here (PDF)](/assets/resume_kun_chen.pdf)
+# 📄 **Download my resume**: [Click here (PDF)](/assets/resume_kun_chen.pdf)
 
 Or view it on my [LinkedIn profile](https://www.linkedin.com/in/kunchen)
 
