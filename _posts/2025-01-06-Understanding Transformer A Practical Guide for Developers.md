@@ -16,13 +16,16 @@ In this post, I’ll share how I learned to understand Transformers from a devel
 
 ## 📑 Table of Contents
 
-1. [Why Developers Should Care](#-why-developers-should-care)
-2. [What Is the Core Idea?](#-what-is-the-core-idea)
-3. [How the Transformer Works (Simplified)](#-how-the-transformer-works-simplified)
-4. [What’s New in “Attention is All You Need”?](#-whats-new-in-attention-is-all-you-need)
-5. [How Developers Can Apply Transformers](#-how-developers-can-apply-transformers)
-6. [Final Thoughts](#-final-thoughts)
-7. [Further Reading](#-further-reading)
+## 📑 Table of Contents
+
+1. [Why Developers Should Care](#why-developers-should-care)
+2. [What Is the Core Idea?](#what-is-the-core-idea)
+3. [How the Transformer Works (Simplified)](#how-the-transformer-works-simplified)
+4. [What’s New in “Attention is All You Need”?](#whats-new-in-attention-is-all-you-need)
+5. [How Developers Can Apply Transformers](#how-developers-can-apply-transformers)
+6. [Final Thoughts](#final-thoughts)
+7. [Further Reading](#further-reading)
+
 
 ---
 
