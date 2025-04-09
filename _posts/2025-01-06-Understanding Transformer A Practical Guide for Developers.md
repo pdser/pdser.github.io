@@ -6,14 +6,6 @@ categories: [AI]
 tags: [AI, LLM, Transformer]
 ---
 
----
-layout: post
-title: "Understanding Transformer: A Practical Guide for Developers"
-date: 2025-01-06 10:00:00 +0800
-categories: [AI]
-tags: [AI, LLM, Transformer]
----
-
 # 🧠 Understanding Transformer: A Practical Guide for Developers
 
 If you've dived into the world of deep learning, you've probably come across the phrase **"Attention is All You Need."** That 2017 paper introduced the Transformer — a model that now powers most modern NLP systems like BERT, GPT, and T5.
