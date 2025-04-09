@@ -6,6 +6,14 @@ categories: [AI]
 tags: [AI, LLM, Transformer]
 ---
 
+---
+layout: post
+title: "Understanding Transformer: A Practical Guide for Developers"
+date: 2025-01-06 10:00:00 +0800
+categories: [AI]
+tags: [AI, LLM, Transformer]
+---
+
 # 🧠 Understanding Transformer: A Practical Guide for Developers
 
 If you've dived into the world of deep learning, you've probably come across the phrase **"Attention is All You Need."** That 2017 paper introduced the Transformer — a model that now powers most modern NLP systems like BERT, GPT, and T5.
@@ -26,7 +34,8 @@ In this post, I’ll share how I learned to understand Transformers from a devel
 
 ---
 
-## 🚀 Why Developers Should Care {#why-developers-should-care}
+## 🚀 Why Developers Should Care
+{: #why-developers-should-care }
 
 Transformers are everywhere:
 
@@ -42,7 +51,8 @@ Even if you’re not building models from scratch, understanding how they work u
 
 ---
 
-## 💡 What Is the Core Idea? {#what-is-the-core-idea}
+## 💡 What Is the Core Idea?
+{: #what-is-the-core-idea }
 
 Traditional sequence models like RNNs and LSTMs process data *step-by-step*. That limits parallelism and makes it hard to capture long-range dependencies.
 
@@ -54,7 +64,8 @@ This lets it model relationships between words regardless of how far apart they 
 
 ---
 
-## 🔍 How the Transformer Works (Simplified) {#how-the-transformer-works-simplified}
+## 🔍 How the Transformer Works (Simplified)
+{: #how-the-transformer-works-simplified }
 
 Let’s break the architecture into digestible pieces:
 
@@ -95,7 +106,8 @@ Example:
 
 ---
 
-## 🆕 What’s New in “Attention is All You Need”? {#whats-new-in-attention-is-all-you-need}
+## 🆕 What’s New in “Attention is All You Need”?
+{: #whats-new-in-attention-is-all-you-need }
 
 The paper's innovation is in its **radical simplicity**:
 
@@ -107,7 +119,8 @@ That’s why GPT-3, with its 175B parameters, is still a Transformer at heart.
 
 ---
 
-## 🛠 How Developers Can Apply Transformers {#how-developers-can-apply-transformers}
+## 🛠 How Developers Can Apply Transformers
+{: #how-developers-can-apply-transformers }
 
 You don't need to reimplement Transformers from scratch. Use existing tools and models to solve real-world problems.
 
