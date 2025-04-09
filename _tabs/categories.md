@@ -1,7 +1,7 @@
-<!-- --- 
+--- 
 layout: categories
 icon: fas fa-stream
 order: 1
 permalink: /secret2/
 hidden: true
----   -->
+--- 
