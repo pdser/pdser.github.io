@@ -21,8 +21,8 @@ In this post, I’ll share how I learned to understand Transformers from a devel
 3. [How the Transformer Works (Simplified)](#how-the-transformer-works-simplified)  
 4. [What’s New in “Attention is All You Need”?](#whats-new-in-attention-is-all-you-need)  
 5. [How Developers Can Apply Transformers](#how-developers-can-apply-transformers)  
-6. [Final Thoughts](#final-thoughts)  
-7. [Further Reading](#further-reading)  
+6. [🔚 Final Thoughts](#final-thoughts)  
+7. [📚 Further Reading](#further-reading)  
 
 ---
 
@@ -36,9 +36,9 @@ Transformers are everywhere:
 
 Even if you’re not building models from scratch, understanding how they work under the hood helps you:
 
-- Fine-tune them more effectively
-- Debug when something goes wrong
-- Build smarter prompts or custom layers
+- Fine-tune them more effectively  
+- Debug when something goes wrong  
+- Build smarter prompts or custom layers  
 
 ---
 
@@ -50,6 +50,8 @@ Traditional sequence models like RNNs and LSTMs process data *step-by-step*. Tha
 
 > Rather than processing sequentially, the Transformer looks at the *entire input at once*, and figures out which parts are relevant through a mechanism called **self-attention**.
 
+This lets it model relationships between words regardless of how far apart they are in the sentence.
+
 ---
 
 ## 🔍 How the Transformer Works (Simplified) {#how-the-transformer-works-simplified}
@@ -58,18 +60,18 @@ Let’s break the architecture into digestible pieces:
 
 ### 1. Input Embedding + Positional Encoding
 
-- Each word is turned into a vector (word embedding)
-- Positional encodings are added to preserve word order
+- Each word is turned into a vector (word embedding)  
+- Positional encodings are added to preserve word order  
 
 ### 2. Encoder-Decoder Structure
 
-- **Encoder**: Understands the input (e.g., English sentence)
-- **Decoder**: Generates output (e.g., French translation)
+- **Encoder**: Understands the input (e.g., English sentence)  
+- **Decoder**: Generates output (e.g., French translation)  
 
 ### 3. Self-Attention
 
-- Each word "attends" to all other words in the sequence
-- This forms a weighted sum of the input based on relevance
+- Each word "attends" to all other words in the sequence  
+- This forms a weighted sum of the input based on relevance  
 
 Example:
 
@@ -78,18 +80,18 @@ Example:
 
 ### 4. Multi-Head Attention
 
-- Multiple attention heads work in parallel
-- Each head captures different types of relationships
+- Multiple attention heads work in parallel  
+- Each head captures different types of relationships  
 
 ### 5. Feed-Forward Network (FFN)
 
-- Each token passes through a fully connected neural network
-- Same FFN is applied independently to each position
+- Each token passes through a fully connected neural network  
+- Same FFN is applied independently to each position  
 
 ### 6. Residual Connections + Layer Normalization
 
-- **Skip connections** help prevent vanishing gradients
-- **Layer normalization** improves training stability
+- **Skip connections** help prevent vanishing gradients  
+- **Layer normalization** improves training stability  
 
 ---
 
