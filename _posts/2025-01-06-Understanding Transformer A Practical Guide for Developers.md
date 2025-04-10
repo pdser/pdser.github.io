@@ -2,8 +2,8 @@
 layout: post
 title: "Understanding Transformer: A Practical Guide for Developers"
 date: 2025-01-06 10:00:00 +0800
-categories: [AI]
-tags: [AI, LLM, Transformer]
+# categories: [AI]
+# tags: [AI, LLM, Transformer]
 ---
 
 # 🧠 Understanding Transformer: A Practical Guide for Developers
