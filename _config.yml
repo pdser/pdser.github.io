@@ -226,3 +226,8 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+plugins:
+  - jekyll-archives         # ✅ 分类/标签归档支持
+  - jekyll-seo-tag          # ✅ SEO 标签支持
+  - jekyll-include-cache    # ✅ 支持 {% include_cached %}
+  - jekyll-paginate         # ✅ 支持分页功能
