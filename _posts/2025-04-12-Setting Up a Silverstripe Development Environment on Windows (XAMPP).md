@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Setting Up a Silverstripe Development Environment on Windows (XAMPP)"
+title: "Build your own CMS Part1: Setting Up a Silverstripe Development Environment on Windows (XAMPP)"
 date: 2025-04-12 10:00:00 +0800
 # categories: [SilverStripe]
 # tags: [SilverStripe, CMS]
