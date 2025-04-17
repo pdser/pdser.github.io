@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A Minimal and Developer-Friendly Project Structure"
+title: "Build your own CMS Part3: A Minimal and Developer-Friendly Project Structure"
 date: 2025-04-15 10:00:00 +0800
 # categories: [SilverStripe]
 # tags: [SilverStripe, CMS]
