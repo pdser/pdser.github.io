@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Build your own CMS Part5: Deploying a Silverstripe Project to AWS Production Environment"
-date: 2025-04-16 13:00:00 +0800
+date: 2025-04-17 13:00:00 +0800
 # categories: [SilverStripe]
 # tags: [SilverStripe, CMS]
 ---
