@@ -4,15 +4,13 @@ icon: fas fa-user
 order: 1
 ---
 
-Hi! I'm **Kun Chen**, an IT professional with over 10 years of experience in software development and system architecture. I’m currently pursuing postgraduate studies in Information Technology at WelTec, New Zealand, focusing on **AI-assisted code generation** and **natural language interfaces**.
+Hi! I'm Quinn Chen who is a pragmatic problem-solver and collaborative team player, known for aligning clean, maintainable code with real-world business goals. With over a decade of hands-on experience in software development—ranging from backend architecture to frontend implementation—I bring a full-stack mindset and a deep respect for craftsmanship to every project.
 
-This blog is my personal space to share technical experiments, document my learning journey, and showcase my projects as I seek opportunities for an internship in the local tech industry.
+Currently pursuing a Master's in Information Technology at WelTec in Wellington, I’m also actively applying my skills through freelance and part-time development work. I'm fluent in PHP, Java, and Python, comfortable with Linux environments, and experienced with relational databases like MySQL and Oracle. I enjoy working in agile teams, contributing to peer reviews, and continuously improving both the product and the process.
 
-Outside of work, I enjoy hiking, photography, and exploring new technologies.
+Whether building custom modules in Silverstripe, automating infrastructure workflows, or translating business needs into scalable solutions, I take ownership of what I build—and I never stop learning.
 
-- 🔧 Languages: Python, SQL, JavaScript  
-- ☁️ Tools: Git, Docker, Linux, VS Code  
-- 📚 Focus: AI, NLP, Prompt Engineering, NL2SQL
+
 
 ---
 
