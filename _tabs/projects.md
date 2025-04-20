@@ -63,4 +63,4 @@ With a focus on SOA architecture and standardized protocols, the system enabled 
 
 ---
 
-Each project reflects my engineering philosophy: build systems that are technically sound, operationally resilient, and aligned with real-world needs. I approach challenges not just as a developer, but as a problem-solver focused on outcomes and impact.
+Each project reflects my engineering philosophy: build systems that are technically sound, operationally resilient, and aligned with real-world needs. I approach challenges not just as a developer, but as a problem-solver focused on outcomes and impact. 
