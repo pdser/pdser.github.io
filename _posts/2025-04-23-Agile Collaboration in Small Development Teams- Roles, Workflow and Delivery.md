@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Agile Collaboration in Small Development Teams: Roles, Workflow & Delivery"
+title: "Agile Collaboration in Small Development Teams- Roles, Workflow and Delivery"
 date: 2025-04-23 21:50:00 +0800
 # categories: [Aigle Development]
 # tags: [Aigle, MVP]
