@@ -2,8 +2,8 @@
 layout: post
 title: "Agile Collaboration in Small Development Teams: Roles, Workflow & Delivery"
 date: 2025-04-23 21:50:00 +0800
-# categories: [SilverStripe]
-# tags: [SilverStripe, CMS]
+# categories: [Aigle Development]
+# tags: [Aigle, MVP]
 ---
 
 
