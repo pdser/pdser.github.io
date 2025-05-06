@@ -231,3 +231,6 @@ plugins:
   - jekyll-seo-tag          # ✅ SEO 标签支持
   - jekyll-include-cache    # ✅ 支持 {% include_cached %}
   - jekyll-paginate         # ✅ 支持分页功能
+
+# 添加gsc
+custom_head: custom-head.html
