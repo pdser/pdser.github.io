@@ -25,7 +25,8 @@ description: >- # used by seo meta and the atom feed
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: ""
 
-
+# 添加gsc
+custom_head: custom-head.html
 
 github:
   username: github_username # change to your GitHub username
@@ -232,5 +233,3 @@ plugins:
   - jekyll-include-cache    # ✅ 支持 {% include_cached %}
   - jekyll-paginate         # ✅ 支持分页功能
 
-# 添加gsc
-custom_head: custom-head.html
